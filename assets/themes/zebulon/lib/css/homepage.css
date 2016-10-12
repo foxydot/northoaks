@@ -149,7 +149,8 @@
 }
 .sectioned-page-wrapper .section.section-calculator {
   position: relative;
-  top: -2em;
+  top: -4em;
+  margin-left: -10em;
 }
 .sectioned-page-wrapper .section.section-calculator .section-body .section-content.column-1 {
   position: relative;
