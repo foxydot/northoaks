@@ -7119,12 +7119,13 @@ Site Header
 .header-image .site-title a {
   float: left;
   min-height: 60px;
-  width: 118px;
+  width: 500px;
   height: 55px;
   background: url(../img/logo.png) no-repeat center left;
   background-size: contain;
   margin: 10px 0;
-  margin: 1rem 0;
+  margin: .25rem .20rem;
+  margin-left: 20px;
 }
 /* Widget Area
 --------------------------------------------- */
