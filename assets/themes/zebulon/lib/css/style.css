@@ -7969,7 +7969,7 @@ Sidebars
 Footer Widgets
 ---------------------------------------------------------------------------------------------------- */
 .footer-widgets {
-  background-color: #005395;
+  background-color: #8f9e8b;
   color: #ffffff;
   clear: both;
   padding: 2rem 0;
@@ -8003,7 +8003,7 @@ Footer Widgets
 }
 .footer-widgets .connected-social .social-media a.fa {
   background: #ffffff;
-  color: #005395;
+  color: #8f9e8b;
   border-radius: 100%;
   font-size: 2rem;
   height: 2em;
@@ -8098,7 +8098,7 @@ Footer Widgets
 Site Footer
 ---------------------------------------------------------------------------------------------------- */
 .site-footer {
-  background-color: #1f2b58;
+  background-color: #5b7876;
   color: #ffffff;
   font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
   font-weight: 400;
@@ -8140,7 +8140,10 @@ Site Footer
   font-weight: 700;
 }
 .site-footer .wrap div.icons i.icon-equal-housing {
-  background-image: url(../img/icon-equal-housing.png);
+  background-image: url(../img/Equal-Housing-new2.png);
+  height: 25px;
+  top: .3em;
+  position: relative;
 }
 .site-footer .wrap div.icons i.logo {
   height: 40px;
