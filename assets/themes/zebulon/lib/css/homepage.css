@@ -151,6 +151,14 @@
   position: relative;
   top: -2em;
 }
+.sectioned-page-wrapper .section.section-charm .section-body .section-content.column-1 {
+  position: relative;
+  top: -6em;
+}
+.sectioned-page-wrapper .section.section-charm {
+  position: relative;
+  top: -2em;
+}
 .sectioned-page-wrapper .section.section-charm .section-body .section-content.column-1 h3 {
   font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
   font-weight: 400;
