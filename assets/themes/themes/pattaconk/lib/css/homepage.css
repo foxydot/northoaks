@@ -1,0 +1,412 @@
+@import url(//fonts.googleapis.com/css?family=Raleway:400,200,700);
+/* Import Fonts
+------------------------------------------------------------ */
+@font-face {
+  font-family: 'jenna_sueregular';
+  src: url('../fonts/jennasue-webfont.eot');
+  src: url('../fonts/jennasue-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/jennasue-webfont.woff') format('woff'), url('../fonts/jennasue-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'handtimesregular';
+  src: url('../fonts/handtimes-webfont.eot');
+  src: url('../fonts/handtimes-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/handtimes-webfont.woff') format('woff'), url('../fonts/handtimes-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Arrows';
+  src: url('../fonts/arrows.eot');
+  src: url('../fonts/arrows.eot?#iefix') format('embedded-opentype'), url('../fonts/arrows.woff') format('woff'), url('../fonts/arrows.ttf') format('truetype'), url('../fonts/arrows.svg#Arrows') format('svg');
+}
+/* Font Stacks */
+.customsansserif,
+.customsanserif {
+  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.625;
+}
+.arrows {
+  font-family: 'Arrows', sans-serif;
+  font-weight: 400;
+}
+.fontawesome {
+  font-family: "FontAwesome";
+}
+/* Colors */
+/* Neutrals */
+/* Arrows */
+/* Buttons */
+.button {
+  padding: 6px 24px;
+  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.625;
+  color: #1f2b58;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: table;
+  margin: 12px auto;
+  text-decoration: none;
+  background-color: rgba(31, 43, 88, 0);
+  border: 2px solid #1f2b58;
+  border-radius: 6px;
+}
+.button:hover,
+.button a:hover {
+  padding: 6px 24px;
+  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.625;
+  color: #1f2b58;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: table;
+  margin: 12px auto;
+  text-decoration: none;
+  background-color: rgba(31, 43, 88, 0);
+  border: 2px solid #1f2b58;
+  border-radius: 6px;
+  background-color: rgba(31, 43, 88, 0.4);
+}
+/* Clears */
+.msd-clearfix {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.hp-top {
+  z-index: -1;
+}
+.hp-top .widget_sp_image .image-widget-background {
+  padding: 3em 0 0;
+}
+.hp-top .widget_sp_image h2.hero-title {
+  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  font-size: 5rem;
+  line-height: 1.625;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 1;
+}
+.hp-top .widget_sp_image h3 {
+  line-height: 1;
+  color: #ffffff;
+}
+.hp-top .widget_sp_image .button {
+  border: 0;
+  background-color: #005395;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0;
+}
+.hp-top .widget_sp_image .button:hover {
+  background-color: #003762;
+}
+.site-inner {
+  display: none;
+  background: #ffffff !important;
+}
+.site-inner .button,
+.site-inner .button:hover {
+  width: auto;
+}
+.sectioned-page-wrapper .section {
+  text-align: left;
+  background-size: cover;
+}
+.sectioned-page-wrapper .section .section-title {
+  padding: 0;
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0);
+}
+.sectioned-page-wrapper .section .section-body .wrap {
+  padding: 0;
+  font-size: 1.6rem;
+}
+.sectioned-page-wrapper .section .section-body img {
+  border: 16px solid #ffffff;
+  -webkit-box-shadow: 0 0 6px 0 #888888;
+  box-shadow: 0 0 6px 0 #888888;
+  margin: 0;
+}
+.sectioned-page-wrapper .section .section-body a.bullet {
+  background-image: url(../img/bullet-arrow.png);
+  background-position: center left;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  font-size: 1.6em;
+  font-weight: 500;
+  color: #1f2b58;
+  text-decoration: none;
+}
+.sectioned-page-wrapper .section.section-image2,
+.sectioned-page-wrapper .section.section-image5 {
+  position: relative;
+  top: -3em;
+  padding-top: 0;
+}
+.sectioned-page-wrapper .section.section-image2 .section-body .wrap,
+.sectioned-page-wrapper .section.section-image5 .section-body .wrap {
+  padding: 0;
+}
+.sectioned-page-wrapper .section.section-charm {
+  position: relative;
+  top: -2em;
+}
+.sectioned-page-wrapper .section.section-charm .section-body .section-content.column-1 h3 {
+  font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
+  font-weight: 400;
+  font-size: 30px;
+  font-size: 3rem;
+  line-height: 1.625;
+  color: #005395;
+  font-weight: 800;
+}
+.sectioned-page-wrapper .section.section-charm .section-body .section-content.column-1 h3 em {
+  font-family: "jenna_sueregular", cursive;
+  font-size: 60px;
+  font-size: 6rem;
+  line-height: 1;
+  font-weight: 400;
+}
+.sectioned-page-wrapper .section.section-charm .section-body .section-content.column-2 {
+  position: relative;
+  top: -6em;
+}
+.sectioned-page-wrapper .section.section-healthy-charming-relaxed {
+  position: relative;
+  top: -2em;
+}
+.sectioned-page-wrapper .section.section-healthy-charming-relaxed .section-body .section-content.column-1 {
+  position: relative;
+  top: -6em;
+}
+.sectioned-page-wrapper .section.section-healthy-charming-relaxed .section-body .section-content.column-2 table tbody {
+  border: 0;
+}
+.sectioned-page-wrapper .section.section-healthy-charming-relaxed .section-body .section-content.column-2 table tr td {
+  vertical-align: top;
+  border: 0;
+}
+.sectioned-page-wrapper .section.section-healthy-charming-relaxed .section-body .section-content.column-2 table tr td.first-child {
+  padding: 0.5em 1em 0 0;
+  width: 20%;
+}
+.sectioned-page-wrapper .section.section-healthy-charming-relaxed .section-body .section-content.column-2 img {
+  border: 0;
+  -webkit-box-shadow: 0 0 0 0 #ffffff;
+  box-shadow: 0 0 0 0 #ffffff;
+}
+.sectioned-page-wrapper .section.section-healthy-charming-relaxed .section-body .section-content.column-2 h3 {
+  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-size: 30px;
+  font-size: 3rem;
+  line-height: 1.625;
+  color: #005395;
+  font-weight: 400;
+  margin: 0;
+}
+.sectioned-page-wrapper .section.section-welcome {
+  padding-top: 3em;
+}
+.sectioned-page-wrapper .section.section-welcome .section-body h1,
+.sectioned-page-wrapper .section.section-welcome .section-body h2 {
+  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  font-size: 3.6rem;
+  line-height: 1.625;
+  color: #005395;
+  margin: 0;
+  line-height: 1.25;
+}
+.sectioned-page-wrapper .section.section-welcome .section-body h2 {
+  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  font-size: 2.4rem;
+  line-height: 1.625;
+}
+.sectioned-page-wrapper .section.section-forms .section-content {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.sectioned-page-wrapper .section.section-forms .section-content .gform_wrapper {
+  margin: 0;
+}
+.sectioned-page-wrapper .section.section-forms .section-content .gform_wrapper input[type="text"],
+.sectioned-page-wrapper .section.section-forms .section-content .gform_wrapper input[type="password"],
+.sectioned-page-wrapper .section.section-forms .section-content .gform_wrapper input[type="color"],
+.sectioned-page-wrapper .section.section-forms .section-content .gform_wrapper input[type="date"],
+.sectioned-page-wrapper .section.section-forms .section-content .gform_wrapper input[type="datetime"],
+.sectioned-page-wrapper .section.section-forms .section-content .gform_wrapper input[type="datetime-local"],
+.sectioned-page-wrapper .section.section-forms .section-content .gform_wrapper input[type="email"],
+.sectioned-page-wrapper .section.section-forms .section-content .gform_wrapper input[type="month"],
+.sectioned-page-wrapper .section.section-forms .section-content .gform_wrapper input[type="number"],
+.sectioned-page-wrapper .section.section-forms .section-content .gform_wrapper input[type="range"],
+.sectioned-page-wrapper .section.section-forms .section-content .gform_wrapper input[type="search"],
+.sectioned-page-wrapper .section.section-forms .section-content .gform_wrapper input[type="tel"],
+.sectioned-page-wrapper .section.section-forms .section-content .gform_wrapper input[type="time"],
+.sectioned-page-wrapper .section.section-forms .section-content .gform_wrapper input[type="url"],
+.sectioned-page-wrapper .section.section-forms .section-content .gform_wrapper input[type="week"],
+.sectioned-page-wrapper .section.section-forms .section-content .gform_wrapper select,
+.sectioned-page-wrapper .section.section-forms .section-content .gform_wrapper textarea {
+  border-width: 1px;
+}
+.sectioned-page-wrapper .section.section-forms .section-content h3,
+.sectioned-page-wrapper .section.section-forms .section-content h3.gform_title {
+  color: #ffffff;
+  font-size: 1.3em;
+  text-align: center;
+  font-weight: 500;
+  margin: 0.625em 0 0.375em;
+}
+.sectioned-page-wrapper .section.section-forms .section-content h3.gform_title {
+  color: #1f2b58;
+}
+.sectioned-page-wrapper .section.section-forms .section-content.column-2 {
+  color: #888888;
+}
+.sectioned-page-wrapper .section.section-forms .section-content.column-2 .calculator-box {
+  margin: 30px auto;
+  width: auto;
+  display: inline-block;
+  border: 1px solid #888888;
+  border-radius: 12px;
+  padding: 2rem;
+  font-size: 2.1rem;
+}
+.sectioned-page-wrapper .section.section-forms .section-content.column-2 .calculator-box h3 {
+  margin-top: 0;
+}
+.sectioned-page-wrapper .section.section-forms .section-content.column-2 .calculator-box .icon-calculator:before {
+  margin: 2rem 0;
+  content: '';
+  height: 160px;
+  width: 160px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 70px auto;
+  background-image: url(../img/icon-calculator.png);
+}
+.sectioned-page-wrapper .section.section-forms .section-content.column-2 .calculator-box p {
+  margin: 0;
+}
+.sectioned-page-wrapper .section.section-forms .section-content.column-2 .calculator-box h3 {
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: 50px auto;
+  background-image: url(../img/icon-calculator.png);
+  padding-left: 55px;
+  color: #888888;
+  font-size: 3rem;
+  line-height: 1;
+  max-width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sectioned-page-wrapper .section.section-forms .section-content.column-2 .calculator-box .button {
+  padding: 6px 24px;
+  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.625;
+  color: #888888;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: table;
+  margin: 12px auto;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid #888888;
+  border-radius: 6px;
+  background-color: #ffffff;
+  font-size: 14px;
+  max-width: 280px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sectioned-page-wrapper .section.section-welcome-home {
+  padding: 8em 0;
+}
+@media only screen and (max-width: 980px) {
+  nav.homepage-top .menu li a {
+    font-size: 7vw;
+  }
+  .sectioned-page-wrapper .section.section-forms {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB2aWV3Qm94PSIwIDAgMSAxIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48bGluZWFyR3JhZGllbnQgaWQ9Imxlc3NoYXQtZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNlM2UyZTAiIHN0b3Atb3BhY2l0eT0iMSIvPjxzdG9wIG9mZnNldD0iMzMlIiBzdG9wLWNvbG9yPSIjZTNlMmUwIiBzdG9wLW9wYWNpdHk9IjEiLz48c3RvcCBvZmZzZXQ9IjY2JSIgc3RvcC1jb2xvcj0iIzFmMmI1OCIgc3RvcC1vcGFjaXR5PSIxIi8+PHN0b3Agb2Zmc2V0PSI5OSUiIHN0b3AtY29sb3I9IiMxZjJiNTgiIHN0b3Atb3BhY2l0eT0iMSIvPjwvbGluZWFyR3JhZGllbnQ+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNsZXNzaGF0LWdlbmVyYXRlZCkiIC8+PC9zdmc+);
+    background-image: -webkit-linear-gradient(top, #e3e2e0 0%, #e3e2e0 49.9%, #1f2b58 50%, #1f2b58 100%);
+    background-image: -moz-linear-gradient(top, #e3e2e0 0%, #e3e2e0 49.9%, #1f2b58 50%, #1f2b58 100%);
+    background-image: -o-linear-gradient(top, #e3e2e0 0%, #e3e2e0 49.9%, #1f2b58 50%, #1f2b58 100%);
+    background-image: linear-gradient(to bottom, #e3e2e0 0%, #e3e2e0 49.9%, #1f2b58 50%, #1f2b58 100%);
+    border-top: 6px solid #1f2b58;
+    border-bottom: 0 solid #1f2b58;
+  }
+  .sectioned-page-wrapper .section.section-forms .section-body > .wrap > .row {
+    margin: 0;
+    padding: 0;
+  }
+  .sectioned-page-wrapper .section.section-forms .section-content {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+  .sectioned-page-wrapper .section.section-forms .section-content.column-1 {
+    background-color: #e3e2e0;
+  }
+  .sectioned-page-wrapper .section.section-forms .section-content.column-2 {
+    background-color: #1f2b58;
+    color: #ffffff;
+  }
+  .sectioned-page-wrapper .section.section-forms .section-content.column-2 .icon-calculator:before {
+    margin: 2rem 0;
+    content: '';
+    height: 160px;
+    width: 160px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 70px auto;
+    background-image: url(../img/icon-calculator.png);
+  }
+  .sectioned-page-wrapper .section.section-forms .section-content.column-2 .button {
+    font-size: 14px;
+  }
+  .sectioned-page-wrapper .section.section-lifestyle {
+    padding: 7vw 0;
+  }
+  .sectioned-page-wrapper .section.section-programs {
+    padding: 7vw 0;
+  }
+  .sectioned-page-wrapper .section.section-programs .section-title,
+  .sectioned-page-wrapper .section.section-programs .section-body {
+    padding-right: 2%;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .sectioned-page-wrapper .section.section-programs {
+    padding: 100vw 0 0 0;
+    background-position: top left;
+    background-size: 220% auto;
+  }
+  .sectioned-page-wrapper .section.section-programs .section-title,
+  .sectioned-page-wrapper .section.section-programs .section-body {
+    background-color: #ffffff;
+    padding: 0 2vw;
+  }
+}
