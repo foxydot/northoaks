@@ -8070,11 +8070,11 @@ Footer Widgets
   padding-left: 51px;
 }
 .footer-widgets .widget.widget_nav_menu ul.menu {
-  -moz-column-count: 4;
+  -moz-column-count: 3;
   -moz-column-gap: 30px;
-  -webkit-column-count: 4;
+  -webkit-column-count: 3;
   -webkit-column-gap: 30px;
-  column-count: 4;
+  column-count: 3;
   column-gap: 30px;
 }
 .footer-widgets .widget.widget_nav_menu ul.menu > li {
