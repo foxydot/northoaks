@@ -270,14 +270,14 @@
 }
 .sectioned-page-wrapper .section.section-forms .section-content h3,
 .sectioned-page-wrapper .section.section-forms .section-content h3.gform_title {
-  color: #d4d4d4;
-  font-size: 1.3em;
+  color: #888888;
+  font-size: 1.5em;
   text-align: center;
-  font-weight: 500;
+  font-weight: 700;
   margin: 0.625em 0 0.375em;
 }
 .sectioned-page-wrapper .section.section-forms .section-content h3.gform_title {
-  color: #1f2b58;
+  color: #d4d4d4;
 }
 .sectioned-page-wrapper .section.section-forms .section-content.column-2 {
   color: #888888;
