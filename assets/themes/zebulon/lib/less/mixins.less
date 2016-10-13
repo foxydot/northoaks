@@ -249,7 +249,7 @@
 
 
 /* Buttons */
-.button(@background:@dkblue,@color:@dkblue) {
+.button(@background:#f2e6b6,@color:@blue) {
   padding: 6px 24px;
   .customsanserif;
   color: @color;
@@ -257,15 +257,14 @@
   font-weight: 700;
   text-transform: uppercase;
   display: table;
-  margin: 12px auto;
   text-decoration: none;
   background-color: fade(@background,0%);
-  border: 2px solid @color;
+  border: 0px solid @color;
   border-radius: 6px;
 }
 
 
-.button-hover(@background:@dkblue,@color:@dkblue) {
+.button-hover(@background:#f2e6b6,@color:@blue) {
   .button(@background,@color);
   background-color: fade(@background,40%);
 }
