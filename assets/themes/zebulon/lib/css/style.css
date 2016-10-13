@@ -6947,6 +6947,7 @@ div.gform_wrapper .gform_footer input[type="submit"] {
   font-size: 14px;
   font-size: 1.4rem;
   display: table;
+  margin: 6px auto;
 }
 /* Jetpack
 --------------------------------------------- */
