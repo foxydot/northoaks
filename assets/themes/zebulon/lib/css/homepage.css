@@ -339,11 +339,17 @@
   font-size: 14px;
   max-width: 280px;
   width: 100%;
+  margin: 12px auto;
   margin-left: auto;
   margin-right: auto;
 }
 .sectioned-page-wrapper .section.section-welcome-home {
   padding: 0 0 8em 0;
+}
+.sectioned-page-wrapper .section.section-welcome-home .section-body .wrap div.button-wrapper {
+  display: table;
+  width: 100%;
+  margin: 12px auto;
 }
 @media only screen and (max-width: 980px) {
   nav.homepage-top .menu li a {
