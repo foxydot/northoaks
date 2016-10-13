@@ -54,7 +54,7 @@
   text-transform: uppercase;
   display: table;
   text-decoration: none;
-  background-color: rgba(242, 230, 182, 0);
+  background-color: #f2e6b6;
   border: 0px solid #005395;
   border-radius: 6px;
   background-color: rgba(242, 230, 182, 0.4);
@@ -333,7 +333,6 @@
   text-transform: uppercase;
   display: table;
   text-decoration: none;
-  background-color: rgba(242, 230, 182, 0);
   border: 0px solid #005395;
   border-radius: 6px;
   background-color: #f2e6b6;
