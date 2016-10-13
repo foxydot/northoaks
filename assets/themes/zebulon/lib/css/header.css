@@ -1,0 +1,269 @@
+@import url(//fonts.googleapis.com/css?family=Raleway:400,200,700);
+@import url(//fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i);
+/* Import Fonts
+------------------------------------------------------------ */
+@font-face {
+  font-family: 'jenna_sueregular';
+  src: url('../fonts/jennasue-webfont.eot');
+  src: url('../fonts/jennasue-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/jennasue-webfont.woff') format('woff'), url('../fonts/jennasue-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'handtimesregular';
+  src: url('../fonts/handtimes-webfont.eot');
+  src: url('../fonts/handtimes-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/handtimes-webfont.woff') format('woff'), url('../fonts/handtimes-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Arrows';
+  src: url('../fonts/arrows.eot');
+  src: url('../fonts/arrows.eot?#iefix') format('embedded-opentype'), url('../fonts/arrows.woff') format('woff'), url('../fonts/arrows.ttf') format('truetype'), url('../fonts/arrows.svg#Arrows') format('svg');
+}
+/* Font Stacks */
+.customsansserif,
+.customsanserif {
+  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.625;
+}
+.arrows {
+  font-family: 'Arrows', sans-serif;
+  font-weight: 400;
+}
+.fontawesome {
+  font-family: "FontAwesome";
+}
+/* Colors */
+/* Neutrals */
+/* Arrows */
+/* Buttons */
+.button:hover,
+.button a:hover {
+  padding: 6px 24px;
+  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.625;
+  color: #005395;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: table;
+  text-decoration: none;
+  background-color: #f2e6b6;
+  border: 0px solid #005395;
+  border-radius: 6px;
+  background-color: rgba(242, 230, 182, 0.4);
+}
+/* Clears */
+.msd-clearfix {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.pre-header {
+  background-color: #412a22;
+  color: white;
+  z-index: 300;
+}
+.pre-header .widget-area {
+  width: 100%;
+}
+.pre-header .widget-area .textwidget {
+  text-align: center;
+}
+.pre-header .widget-area .textwidget ul {
+  padding: 1em 0;
+}
+.pre-header .widget-area .textwidget ul li {
+  display: inline-block;
+  font-size: 0.8em;
+  font-weight: bold;
+  padding: 0 1em;
+  border-right: 1px solid #ffffff;
+}
+.pre-header .widget-area .textwidget ul li i.fa {
+  margin-left: 1em;
+}
+.pre-header .widget-area .textwidget ul li:last-child {
+  border-right: 0;
+}
+/*
+Site Header
+---------------------------------------------------------------------------------------------------- */
+.site-header {
+  background-color: #ffffff;
+  padding: 20px 0;
+  padding: 0.25em 0;
+  z-index: 300;
+  border-bottom: 1px solid #d4d4d4;
+}
+/* Title Area
+--------------------------------------------- */
+.title-area {
+  float: left;
+  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.625;
+  font-weight: 700;
+  padding: 16px 0;
+  padding: 1.6rem 0;
+  width: 15%;
+}
+.header-image .title-area {
+  padding: 0;
+}
+.site-title {
+  font-size: 28px;
+  font-size: 2.8rem;
+  line-height: 1;
+  margin: 0 0 8px;
+  margin: 0 0 0.8rem;
+  text-transform: uppercase;
+}
+.site-title a,
+.site-title a:hover {
+  color: #333;
+}
+.site-description {
+  color: #999;
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1;
+  margin-bottom: 0;
+}
+/* Full width header, no widgets */
+.header-full-width .title-area,
+.header-full-width .site-title {
+  /*width: 100%;*/
+}
+.header-image .site-description,
+.header-image .site-title a {
+  display: block;
+  text-indent: -9999px;
+}
+/* Logo, hide text */
+.header-image .site-header .wrap {
+  padding: 0;
+}
+.header-image .site-title a {
+  float: left;
+  min-height: 60px;
+  width: 500px;
+  height: 55px;
+  background: url(../img/logo.png) no-repeat center left;
+  background-size: contain;
+  margin: 10px 0;
+  margin: .25rem .20rem;
+  margin-left: 20px;
+}
+/* Widget Area
+--------------------------------------------- */
+.site-header .widget-area,
+.pre-header .widget-area {
+  float: right;
+  text-align: right;
+  clear: right;
+  line-height: 1;
+}
+.site-header .widget-area .widget,
+.pre-header .widget-area .widget {
+  display: inline-block;
+}
+.site-header .widget-area .widget_nav_menu,
+.pre-header .widget-area .widget_nav_menu {
+  position: relative;
+  top: -0.8rem;
+}
+.site-header .widget-area .widget_nav_menu nav ul li,
+.pre-header .widget-area .widget_nav_menu nav ul li {
+  padding: 0.4rem;
+  border: 1px solid #b7b7b7;
+  margin-left: -0.4rem;
+}
+.site-header .widget-area .widget_nav_menu nav ul li a,
+.pre-header .widget-area .widget_nav_menu nav ul li a {
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #d4d4d4;
+}
+.site-header .widget-area .widget_nav_menu nav ul li a:after,
+.pre-header .widget-area .widget_nav_menu nav ul li a:after {
+  font-family: "FontAwesome";
+  padding: 0 0.2rem 0 0.4rem;
+}
+.site-header .widget-area .widget_nav_menu nav ul li.register,
+.pre-header .widget-area .widget_nav_menu nav ul li.register {
+  border-radius: 6px 0 0 6px;
+}
+.site-header .widget-area .widget_nav_menu nav ul li.register a:after,
+.pre-header .widget-area .widget_nav_menu nav ul li.register a:after {
+  content: "\f007";
+}
+.site-header .widget-area .widget_nav_menu nav ul li.login,
+.pre-header .widget-area .widget_nav_menu nav ul li.login {
+  border-radius: 0 6px 6px 0;
+  border-left: 0;
+}
+.site-header .widget-area .widget_nav_menu nav ul li.login a:after,
+.pre-header .widget-area .widget_nav_menu nav ul li.login a:after {
+  content: "\f023";
+}
+.site-header .widget-area .widget_nav_menu nav ul li:hover a,
+.pre-header .widget-area .widget_nav_menu nav ul li:hover a {
+  color: #888888;
+  text-decoration: none;
+}
+.site-header .widget-area .search-form,
+.pre-header .widget-area .search-form {
+  display: inline-block;
+  padding: 0;
+  margin-left: 1rem;
+  position: relative;
+  whitespace: nowrap;
+}
+.site-header .widget-area .search-form input[type="search"],
+.pre-header .widget-area .search-form input[type="search"] {
+  font-size: 1.4rem;
+  width: 25rem;
+  background: #ffffff;
+  padding: 1rem 2.4rem 1rem 1rem;
+  border: 0;
+  border-right: 1px solid #e3e2e0;
+  border-radius: 3rem;
+  line-height: 1;
+}
+.site-header .widget-area .search-form input[type="submit"],
+.pre-header .widget-area .search-form input[type="submit"] {
+  font-family: "FontAwesome";
+  background: transparent;
+  border: 0 none;
+  clip: auto;
+  color: #d4d4d4;
+  display: inline-block;
+  font-size: 1.2rem;
+  height: 18px;
+  line-height: 1;
+  text-align: center;
+  width: 18px;
+  right: 1rem;
+  top: 0.9rem;
+}
+.header-image .site-header .widget-area {
+  padding: 0;
+}
+.site-header .search-form {
+  float: right;
+}
+/*# sourceMappingURL=header.css.map */
