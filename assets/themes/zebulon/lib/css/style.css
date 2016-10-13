@@ -1,4 +1,5 @@
 @import url(//fonts.googleapis.com/css?family=Raleway:400,200,700);
+@import url(//fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i);
 /*
 HTML5 Reset
 ---------------------------------------------------------------------------------------------------- */
@@ -7341,7 +7342,7 @@ Site Navigation
   font-size: 1.5rem;
   line-height: 1.625;
   padding: 2em 0.5em;
-  color: #1f2b58;
+  color: #412a22;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -7364,7 +7365,7 @@ Site Navigation
 .nav-primary li.menu-item .sub-menu li.menu-item a {
   background-color: transparent;
   border: 0;
-  color: #1f2b58;
+  color: #412a22;
   padding: 1rem 0;
   width: 100%;
 }
