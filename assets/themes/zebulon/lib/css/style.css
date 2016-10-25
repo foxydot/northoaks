@@ -1,5 +1,6 @@
 @import url(//fonts.googleapis.com/css?family=Raleway:400,200,700);
 @import url(//fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i);
+@import url(//fonts.googleapis.com/css?family=La+Belle+Aurore:400,700);
 /*
 HTML5 Reset
 ---------------------------------------------------------------------------------------------------- */
@@ -6291,7 +6292,7 @@ you can use the generic selector below, but it's slower:
 /* Font Stacks */
 .customsansserif,
 .customsanserif {
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -6311,7 +6312,7 @@ you can use the generic selector below, but it's slower:
 .button:hover,
 .button a:hover {
   padding: 6px 24px;
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -6347,7 +6348,7 @@ html {
 body {
   background-color: #ffffff;
   color: #2d2d2d;
-  font-family: "Raleway", "Helvetica Neue", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 18px;
   font-size: 1.8rem;
@@ -6412,7 +6413,7 @@ blockquote {
   border: none;
 }
 blockquote p {
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -6446,7 +6447,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -6539,7 +6540,7 @@ input[type="submit"],
 .button,
 .entry-content .button {
   padding: 6px 24px;
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -6566,7 +6567,7 @@ input:hover[type="submit"],
 .button:hover,
 .entry-content .button:hover {
   padding: 6px 24px;
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -6776,7 +6777,7 @@ img.alignright,
   padding: 4rem;
 }
 .author-box-title {
-  font-family: "Raleway", "Helvetica Neue", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -6999,7 +7000,7 @@ img#wpstats {
 .job-manager-application-wrapper .application .application_button,
 .single_job_listing .application .application_button {
   padding: 6px 24px;
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -7067,7 +7068,7 @@ Site Header
 --------------------------------------------- */
 .title-area {
   float: left;
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -7229,7 +7230,7 @@ Site Navigation
 ---------------------------------------------------------------------------------------------------- */
 .genesis-nav-menu {
   clear: both;
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -7336,7 +7337,7 @@ Site Navigation
   }*/
 }
 .nav-primary li.menu-item a {
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 15px;
   font-size: 1.5rem;
@@ -7407,7 +7408,7 @@ Site Navigation
   position: relative;
 }
 .nav-secondary .wrap li.menu-item > a {
-  font-family: "Raleway", "Helvetica Neue", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 14px;
   font-size: 1.4rem;
@@ -7693,7 +7694,7 @@ article.entry {
   display: block;
 }
 .entry-header .entry-title {
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 28px;
   font-size: 2.8rem;
@@ -7707,7 +7708,7 @@ article.entry {
   text-transform: uppercase;
 }
 .entry-header .entry-subtitle {
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 21px;
   font-size: 2.1rem;
@@ -7902,12 +7903,12 @@ Sidebars
   border-radius: 0px;
 }
 .sidebar .widget .widget-title {
-  font-family: "Raleway", "Helvetica Neue", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 24px;
   font-size: 2.4rem;
   line-height: 1.625;
-  color: #412a22;
+  color: #2d2d2d;
 }
 .sidebar .enews-widget {
   background-color: #333;
@@ -7917,7 +7918,7 @@ Sidebars
 }
 .sidebar .widget_text .textwidget .readmore {
   padding: 6px 24px;
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -7949,7 +7950,7 @@ Sidebars
   border: 0;
 }
 .sidebar .widget_sp_image .link a i {
-  color: #1f2b58;
+  color: #412a22;
 }
 .sidebar .widget.gform_widget {
   background-color: #d4d4d4;
@@ -7958,7 +7959,7 @@ Sidebars
   padding: 0.4rem 2rem 0.4rem 50rem;
 }
 .sidebar span.fa-stack {
-  color: #1f2b58;
+  color: #412a22;
 }
 /*
 Footer Widgets
@@ -8095,7 +8096,7 @@ Site Footer
 .site-footer {
   background-color: #5b7876;
   color: #ffffff;
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 13px;
   font-size: 1.3rem;
@@ -8198,7 +8199,7 @@ Site Footer
 }
 .sectioned-page-wrapper .section .section-subtitle,
 .sectioned-page-wrapper .section h4 {
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 18px;
   font-size: 1.8rem;
@@ -8212,7 +8213,7 @@ Site Footer
   margin-bottom: 2rem;
 }
 .sectioned-page-wrapper .section h3 {
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 18px;
   font-size: 1.8rem;
@@ -8223,7 +8224,7 @@ Site Footer
   margin-bottom: 0.5em;
 }
 .sectioned-page-wrapper .section .section-title h3 {
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 24px;
   font-size: 2.4rem;
@@ -8421,7 +8422,7 @@ Site Footer
   }
 }
 .site-header .widget-area .widget.widget_text {
-  font-family: "Raleway", "Helvetica Neue", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 14px;
   font-size: 1.4rem;
@@ -8443,7 +8444,7 @@ Site Footer
   text-shadow: 0 0 8px #888888;
   background: rgba(255, 255, 255, 0);
   display: block;
-  font-family: "jenna_sueregular", cursive;
+  font-family: 'La Belle Aurore', cursive;
   font-weight: 400;
   font-size: 80px;
   font-size: 8rem;
@@ -8462,7 +8463,7 @@ Site Footer
 }
 .sidebar.sidebar-primary .button {
   padding: 6px 24px;
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -8505,7 +8506,7 @@ Site Footer
 }
 .sidebar.sidebar-primary section.widget.widget_text .widget-wrap .button {
   padding: 6px 24px;
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -8571,7 +8572,7 @@ Site Footer
   display: none;
 }
 .su-accordion .su-spoiler .su-spoiler-title {
-  font-family: "Raleway", "Helvetica Neue", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 18px;
   font-size: 1.8rem;
