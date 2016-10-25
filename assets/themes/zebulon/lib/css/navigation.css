@@ -227,7 +227,7 @@ Site Navigation
   border: 0;
 }
 .nav-primary li.menu-item .sub-menu li:hover > a {
-  color: #888888;
+  color: #004963;
   text-decoration: none;
 }
 .nav-primary li:hover a,
@@ -236,7 +236,7 @@ Site Navigation
 .nav-primary li:hover a:hover,
 .nav-primary li.current-menu-item a:hover,
 .nav-primary li.current-menu-ancestor a:hover {
-  color: #888888;
+  color: #004963;
   text-decoration: none;
 }
 .mainNav > ul > li.first > ul > li.title > ul > li > ul > li {
@@ -364,7 +364,7 @@ Site Navigation
 }
 .widget_advanced_menu .menu > li.current-menu-item li a,
 .widget_advanced_menu .menu > li.current-menu-ancestor li a {
-  color: #888888;
+  color: #004963;
   padding: 1rem 0;
   display: inline-block;
   width: 80%;
