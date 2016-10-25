@@ -1,5 +1,6 @@
 @import url(//fonts.googleapis.com/css?family=Raleway:400,200,700);
 @import url(//fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i);
+@import url(//fonts.googleapis.com/css?family=Caveat|La+Belle+Aurore|Marck+Script);
 /*
 Site Navigation
 ---------------------------------------------------------------------------------------------------- */
@@ -27,7 +28,7 @@ Site Navigation
 /* Font Stacks */
 .customsansserif,
 .customsanserif {
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -47,7 +48,7 @@ Site Navigation
 .button:hover,
 .button a:hover {
   padding: 6px 24px;
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -73,7 +74,7 @@ Site Navigation
 }
 .genesis-nav-menu {
   clear: both;
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -180,7 +181,7 @@ Site Navigation
   }*/
 }
 .nav-primary li.menu-item a {
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 15px;
   font-size: 1.5rem;
@@ -251,7 +252,7 @@ Site Navigation
   position: relative;
 }
 .nav-secondary .wrap li.menu-item > a {
-  font-family: "Raleway", "Helvetica Neue", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 14px;
   font-size: 1.4rem;

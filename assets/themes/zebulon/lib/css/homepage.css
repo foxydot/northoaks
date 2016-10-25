@@ -1,5 +1,6 @@
 @import url(//fonts.googleapis.com/css?family=Raleway:400,200,700);
 @import url(//fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i);
+@import url(//fonts.googleapis.com/css?family=Caveat|La+Belle+Aurore|Marck+Script);
 /* Import Fonts
 ------------------------------------------------------------ */
 @font-face {
@@ -24,7 +25,7 @@
 /* Font Stacks */
 .customsansserif,
 .customsanserif {
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -44,7 +45,7 @@
 .button:hover,
 .button a:hover {
   padding: 6px 24px;
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -77,7 +78,7 @@
   padding-top: 100px;
 }
 .hp-top .widget_sp_image h2.hero-title {
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 50px;
   font-size: 5rem;
@@ -161,7 +162,7 @@
   top: -2em;
 }
 .sectioned-page-wrapper .section.section-charm .section-body .section-content.column-1 h3 {
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 30px;
   font-size: 3rem;
@@ -170,7 +171,7 @@
   font-weight: 700;
 }
 .sectioned-page-wrapper .section.section-charm .section-body .section-content.column-1 h3 em {
-  font-family: "jenna_sueregular", cursive;
+  font-family: 'La Belle Aurore', cursive;
   font-size: 60px;
   font-size: 6rem;
   line-height: 1;
@@ -205,7 +206,7 @@
   box-shadow: 0 0 0 0 #ffffff;
 }
 .sectioned-page-wrapper .section.section-healthy-charming-relaxed .section-body .section-content.column-2 h2 {
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-size: 50px;
   font-size: 5rem;
   line-height: 1.625;
@@ -218,7 +219,7 @@
 }
 .sectioned-page-wrapper .section.section-welcome .section-body h1,
 .sectioned-page-wrapper .section.section-welcome .section-body h2 {
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 36px;
   font-size: 3.6rem;
@@ -228,7 +229,7 @@
   line-height: 1.25;
 }
 .sectioned-page-wrapper .section.section-welcome .section-body h2 {
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 54px;
   font-size: 5.4rem;
@@ -237,7 +238,7 @@
   line-height: 1.5;
 }
 .sectioned-page-wrapper .section.section-welcome .section-body h3 {
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 28px;
   font-size: 2.8rem;
@@ -323,7 +324,7 @@
 }
 .sectioned-page-wrapper .section.section-forms .section-content.column-2 .calculator-box .button {
   padding: 6px 24px;
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;

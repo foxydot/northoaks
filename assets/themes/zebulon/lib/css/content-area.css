@@ -1,5 +1,6 @@
 @import url(//fonts.googleapis.com/css?family=Raleway:400,200,700);
 @import url(//fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i);
+@import url(//fonts.googleapis.com/css?family=Caveat|La+Belle+Aurore|Marck+Script);
 /*
 Content Area
 ---------------------------------------------------------------------------------------------------- */
@@ -27,7 +28,7 @@ Content Area
 /* Font Stacks */
 .customsansserif,
 .customsanserif {
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -47,7 +48,7 @@ Content Area
 .button:hover,
 .button a:hover {
   padding: 6px 24px;
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   font-size: 1.6rem;
@@ -212,7 +213,7 @@ article.entry {
   display: block;
 }
 .entry-header .entry-title {
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 28px;
   font-size: 2.8rem;
@@ -226,7 +227,7 @@ article.entry {
   text-transform: uppercase;
 }
 .entry-header .entry-subtitle {
-  font-family: "Raleway", "Trebuchet MS", Calibri, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 21px;
   font-size: 2.1rem;
