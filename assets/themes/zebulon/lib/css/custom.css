@@ -220,22 +220,22 @@
   display: none;
 }
 .su-accordion .su-spoiler .su-spoiler-title {
-  font-family: 'PT Sans', sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  font-size: 1.8rem;
-  line-height: 1.625;
+  font-family: 'PT Sans', sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  font-size: 1.8rem !important;
+  line-height: 1.625 !important;
   color: #412a22;
 }
 .su-accordion .su-spoiler .su-spoiler-title:hover {
-  color: #004963;
+  color: #004963 !important;
 }
 .su-accordion .su-spoiler .su-spoiler-title .su-spoiler-icon {
-  font-size: 2rem;
+  font-size: 2rem !important;
   line-height: 1.8;
 }
 .su-accordion .su-spoiler .su-spoiler-title:hover {
-  color: #004963;
+  color: #004963 !important;
 }
 .notification-bar {
   background: #682122;
