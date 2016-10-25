@@ -8531,11 +8531,11 @@ Site Footer
   border: 1px solid #d4d4d4;
   background: rgba(255, 255, 255, 0.8);
   width: auto;
-  padding: 0.5em 1em;
+  padding: 0.25em .5em;
   float: right;
 }
 .text-sizer div i {
-  margin-left: 0.5em;
+  margin-left: 0em;
   padding: 0.5em;
   color: #888888;
   cursor: pointer;
