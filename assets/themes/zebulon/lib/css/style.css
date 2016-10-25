@@ -6941,8 +6941,8 @@ div.gform_wrapper .gform_body .gfield .ginput_container .gfield_radio li input,
 div.gform_wrapper .gform_body .gfield .ginput_container .gfield_radio li label {
   text-align: center;
   display: block;
-  margin: 1px auto;
-  float: none;
+  margin: 1px 5px;
+  float: left;
   font-weight: 400;
 }
 div.gform_wrapper .gform_footer input[type="submit"] {
