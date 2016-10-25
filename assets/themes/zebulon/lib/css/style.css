@@ -7043,7 +7043,7 @@ img#wpstats {
 }
 .pre-header .widget-area .textwidget ul li {
   display: inline-block;
-  font-size: 0.8em;
+  font-size: 1em;
   font-weight: bold;
   padding: 0 1em;
   border-right: 1px solid #ffffff;
@@ -7130,8 +7130,7 @@ Site Header
 --------------------------------------------- */
 .site-header .widget-area,
 .pre-header .widget-area {
-  float: right;
-  text-align: right;
+  text-align: center;
   clear: right;
   line-height: 1;
 }
