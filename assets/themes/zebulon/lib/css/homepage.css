@@ -213,6 +213,10 @@
   position: relative;
   top: -6em;
 }
+.sectioned-page-wrapper .section.section-healthy-charming-relaxed .section-body .section-content.column-2 {
+  position: relative;
+  top: -4em;
+}
 .sectioned-page-wrapper .section.section-healthy-charming-relaxed .section-body .section-content.column-2 table tbody {
   border: 0;
 }
