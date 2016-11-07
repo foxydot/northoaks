@@ -147,6 +147,7 @@
   position: relative;
   top: -3em;
   padding-top: 0;
+  z-index: -1;
 }
 .sectioned-page-wrapper .section.section-image2 .section-body .wrap,
 .sectioned-page-wrapper .section.section-image5 .section-body .wrap {
