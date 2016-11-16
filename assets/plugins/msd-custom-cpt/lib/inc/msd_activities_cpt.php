@@ -31,6 +31,7 @@ class MSDActivityCPT {
         
         //Shortcodes
         add_shortcode( 'activity-kit', array(&$this,'list_activity_stories') );
+        add_shortcode( 'list-activities', array(&$this,'list_activity_stories') );
     }
         
         
