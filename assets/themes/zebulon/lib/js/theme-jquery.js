@@ -35,10 +35,11 @@ jQuery(document).ready(function($) {
         $(".site-header").sticky({topSpacing:preheaderheight});
         $(".notification-bar").sticky({topSpacing:headerheight});
     } else {
-        $(".site-header").sticky();
+        $(".pre-header").sticky();
+        $(".site-header").sticky({topSpacing:preheaderheight});
     }
     //add element to page
-    $('article.first-child').prepend('<div class="text-sizer"><div>Font Size <i class="minus fa fa-minus"></i><i class="plus fa fa-plus"></i></div></div>');
+    $('.home .section-welcome .section-body .column-2,article.first-child').prepend('<div class="text-sizer"><div>Font Size <i class="minus fa fa-minus"></i><i class="plus fa fa-plus"></i></div></div>');
     //$('.text-sizer').sticky({topSpacing:210});
     var size = parseInt($('html').css('font-size'));
     $('.text-sizer .plus').click(function(){

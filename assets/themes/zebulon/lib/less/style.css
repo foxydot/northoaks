@@ -8653,10 +8653,8 @@ Site Footer
   .site-inner {
     background-image: none;
   }
-  .footer-widgets .widget.widget_nav_menu {
-    padding-left: 0;
-  }
   .footer-widgets .widget.widget_nav_menu ul.menu {
+    padding-left: 0;
     -moz-column-count: 3;
     -webkit-column-count: 3;
     column-count: 3;
@@ -8686,8 +8684,7 @@ Site Footer
     display: inline-block;
     width: 100%;
     text-indent: 20px;
-    background: #FFF;
-    border-top: 1px solid #630;
+    border-bottom: 1px solid #630;
     min-height: 50px;
     padding-top: 14px;
     position: relative;

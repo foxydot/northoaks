@@ -1,8 +1,8 @@
+/* Import Fonts
+------------------------------------------------------------ */
 @import url(//fonts.googleapis.com/css?family=Raleway:400,200,700);
 @import url(//fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i);
 @import url(//fonts.googleapis.com/css?family=La+Belle+Aurore:400,700);
-/* Import Fonts
------------------------------------------------------------- */
 @font-face {
   font-family: 'jenna_sueregular';
   src: url('../fonts/jennasue-webfont.eot');
@@ -83,19 +83,19 @@
   font-size: 50px;
   font-size: 5rem;
   line-height: 1.625;
-  color: #ffffff;
+  color: #FFF;
   text-transform: uppercase;
   font-weight: 600;
   line-height: 1;
 }
 .hp-top .widget_sp_image h3 {
   line-height: 1;
-  color: #ffffff;
+  color: #FFF;
 }
 .hp-top .widget_sp_image .button {
   border: 0;
   background-color: #005395;
-  color: #ffffff;
+  color: #FFF;
   text-decoration: none;
   margin: 0;
 }
@@ -104,7 +104,7 @@
 }
 .site-inner {
   display: none;
-  background: #ffffff !important;
+  background: #FFF !important;
 }
 .site-inner .button,
 .site-inner .button:hover {
@@ -127,7 +127,7 @@
   margin: 12px auto;
 }
 .sectioned-page-wrapper .section .section-body img {
-  border: 16px solid #ffffff;
+  border: 16px solid #FFF;
   -webkit-box-shadow: 0 0 6px 0 #888888;
   box-shadow: 0 0 6px 0 #888888;
   margin: 0;
@@ -156,11 +156,6 @@
 .sectioned-page-wrapper .section.section-calculator {
   position: relative;
   top: -4em;
-  margin-left: -10em;
-}
-.sectioned-page-wrapper .section.section-calculator .section-body .section-content.column-1 {
-  position: relative;
-  top: -6em;
 }
 .sectioned-page-wrapper .section.section-charm {
   position: relative;
@@ -231,8 +226,8 @@
 }
 .sectioned-page-wrapper .section.section-healthy-charming-relaxed .section-body .section-content.column-2 img {
   border: 0;
-  -webkit-box-shadow: 0 0 0 0 #ffffff;
-  box-shadow: 0 0 0 0 #ffffff;
+  -webkit-box-shadow: 0 0 0 0 #FFF;
+  box-shadow: 0 0 0 0 #FFF;
 }
 .sectioned-page-wrapper .section.section-healthy-charming-relaxed .section-body .section-content.column-2 h2 {
   font-family: 'PT Sans', sans-serif;
@@ -390,14 +385,52 @@
   nav.homepage-top .menu li a {
     font-size: 7vw;
   }
-  .sectioned-page-wrapper .section.section-forms {
-    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB2aWV3Qm94PSIwIDAgMSAxIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48bGluZWFyR3JhZGllbnQgaWQ9Imxlc3NoYXQtZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNlM2UyZTAiIHN0b3Atb3BhY2l0eT0iMSIvPjxzdG9wIG9mZnNldD0iMzMlIiBzdG9wLWNvbG9yPSIjZTNlMmUwIiBzdG9wLW9wYWNpdHk9IjEiLz48c3RvcCBvZmZzZXQ9IjY2JSIgc3RvcC1jb2xvcj0iIzFmMmI1OCIgc3RvcC1vcGFjaXR5PSIxIi8+PHN0b3Agb2Zmc2V0PSI5OSUiIHN0b3AtY29sb3I9IiMxZjJiNTgiIHN0b3Atb3BhY2l0eT0iMSIvPjwvbGluZWFyR3JhZGllbnQ+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNsZXNzaGF0LWdlbmVyYXRlZCkiIC8+PC9zdmc+);
-    background-image: -webkit-linear-gradient(top, #e3e2e0 0%, #e3e2e0 49.9%, #1f2b58 50%, #1f2b58 100%);
-    background-image: -moz-linear-gradient(top, #e3e2e0 0%, #e3e2e0 49.9%, #1f2b58 50%, #1f2b58 100%);
-    background-image: -o-linear-gradient(top, #e3e2e0 0%, #e3e2e0 49.9%, #1f2b58 50%, #1f2b58 100%);
-    background-image: linear-gradient(to bottom, #e3e2e0 0%, #e3e2e0 49.9%, #1f2b58 50%, #1f2b58 100%);
-    border-top: 6px solid #1f2b58;
-    border-bottom: 0 solid #1f2b58;
+  .hp-top .widget_sp_image .image-widget-background {
+    padding: 7vw 0;
+    min-height: 45vw;
+  }
+  .hp-top .widget_sp_image .wrap {
+    bottom: 2vw;
+    left: 4vw;
+  }
+  .hp-top .widget_sp_image .wrap h2.hero-title {
+    font-size: 6vw;
+  }
+  .hp-top .widget_sp_image .wrap h3 {
+    font-size: 4vw;
+  }
+  .sectioned-page-wrapper .section .section-body .wrap {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .sectioned-page-wrapper .section .section-body img.alignleft,
+  .sectioned-page-wrapper .section .section-body img.alignright,
+  .sectioned-page-wrapper .section .section-body img.aligncenter,
+  .sectioned-page-wrapper .section .section-body img.alignnone {
+    float: none;
+    clear: both;
+    margin: 0 auto;
+    display: block;
+  }
+  .sectioned-page-wrapper .section.section-image2,
+  .sectioned-page-wrapper .section.section-calculator,
+  .sectioned-page-wrapper .section.section-charm,
+  .sectioned-page-wrapper .section.section-healthy-charming-relaxed {
+    top: 0;
+  }
+  .sectioned-page-wrapper .section.section-image2 .section-body .section-content.column-1,
+  .sectioned-page-wrapper .section.section-calculator .section-body .section-content.column-1,
+  .sectioned-page-wrapper .section.section-charm .section-body .section-content.column-1,
+  .sectioned-page-wrapper .section.section-healthy-charming-relaxed .section-body .section-content.column-1,
+  .sectioned-page-wrapper .section.section-image2 .section-body .section-content.column-2,
+  .sectioned-page-wrapper .section.section-calculator .section-body .section-content.column-2,
+  .sectioned-page-wrapper .section.section-charm .section-body .section-content.column-2,
+  .sectioned-page-wrapper .section.section-healthy-charming-relaxed .section-body .section-content.column-2,
+  .sectioned-page-wrapper .section.section-image2 .section-body .section-content.column-3,
+  .sectioned-page-wrapper .section.section-calculator .section-body .section-content.column-3,
+  .sectioned-page-wrapper .section.section-charm .section-body .section-content.column-3,
+  .sectioned-page-wrapper .section.section-healthy-charming-relaxed .section-body .section-content.column-3 {
+    top: 0;
   }
   .sectioned-page-wrapper .section.section-forms .section-body > .wrap > .row {
     margin: 0;
@@ -407,12 +440,10 @@
     padding-left: 10vw;
     padding-right: 10vw;
   }
-  .sectioned-page-wrapper .section.section-forms .section-content.column-1 {
-    background-color: #e3e2e0;
-  }
-  .sectioned-page-wrapper .section.section-forms .section-content.column-2 {
-    background-color: #1f2b58;
-    color: #ffffff;
+  .sectioned-page-wrapper .section.section-forms .section-content.column-1 .calculator-box {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
   }
   .sectioned-page-wrapper .section.section-forms .section-content.column-2 .icon-calculator:before {
     margin: 2rem 0;
@@ -439,6 +470,9 @@
   }
 }
 @media only screen and (max-width: 479px) {
+  .sectioned-page-wrapper .section .section-content img {
+    max-width: 250px;
+  }
   .sectioned-page-wrapper .section.section-programs {
     padding: 100vw 0 0 0;
     background-position: top left;
@@ -446,8 +480,22 @@
   }
   .sectioned-page-wrapper .section.section-programs .section-title,
   .sectioned-page-wrapper .section.section-programs .section-body {
-    background-color: #ffffff;
+    background-color: #FFF;
     padding: 0 2vw;
+  }
+  .sectioned-page-wrapper .section.section-forms .section-content.column-1 .calculator-box {
+    width: 100%;
+    height: auto;
+    padding: 1.5em;
+    font-size: 4vw;
+  }
+  .sectioned-page-wrapper .section.section-forms .section-content.column-1 .calculator-box p {
+    margin: 0;
+  }
+  .sectioned-page-wrapper .section.section-forms .section-content.column-1 .calculator-box h3 {
+    font-size: 6.5vw;
+    line-height: 1;
+    max-width: 85%;
   }
 }
 /*# sourceMappingURL=homepage.css.map */

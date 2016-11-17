@@ -1,8 +1,8 @@
+/* Import Fonts
+------------------------------------------------------------ */
 @import url(//fonts.googleapis.com/css?family=Raleway:400,200,700);
 @import url(//fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i);
 @import url(//fonts.googleapis.com/css?family=La+Belle+Aurore:400,700);
-/* Import Fonts
------------------------------------------------------------- */
 @font-face {
   font-family: 'jenna_sueregular';
   src: url('../fonts/jennasue-webfont.eot');
@@ -105,7 +105,7 @@
 .post-type-archive-event .panel-group .panel .panel-collapse .panel-body article {
   margin: 0;
   padding: 0.5rem 0;
-  border-bottom: 1px solid #b7b7b7;
+  border-bottom: 1px solid #B7B7B7;
 }
 .post-type-archive-event .panel-group .panel .panel-collapse .panel-body article .entry-header {
   display: none;
