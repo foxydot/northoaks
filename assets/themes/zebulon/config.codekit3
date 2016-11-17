@@ -1841,43 +1841,75 @@
 		"oAP": "\/lib\/fonts\/Simple-Line-Icons.woff",
 		"oF": 0
 		},
-	"\/lib\/img\/1-bullet.png": {
+	"\/lib\/img\/apple-touch-icon-114x114.png": {
 		"ft": 32768,
-		"iS": 735,
+		"iS": 10013,
 		"oA": 0,
-		"oAP": "\/lib\/img\/1-bullet.png",
+		"oAP": "\/lib\/img\/apple-touch-icon-114x114.png",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/lib\/img\/2-bullet.png": {
+	"\/lib\/img\/apple-touch-icon-120x120.png": {
 		"ft": 32768,
-		"iS": 1107,
+		"iS": 8517,
 		"oA": 0,
-		"oAP": "\/lib\/img\/2-bullet.png",
+		"oAP": "\/lib\/img\/apple-touch-icon-120x120.png",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/lib\/img\/3-bullet.png": {
+	"\/lib\/img\/apple-touch-icon-144x144.png": {
 		"ft": 32768,
-		"iS": 1122,
+		"iS": 0,
 		"oA": 0,
-		"oAP": "\/lib\/img\/3-bullet.png",
+		"oAP": "\/lib\/img\/apple-touch-icon-144x144.png",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/lib\/img\/arrow.png": {
+	"\/lib\/img\/apple-touch-icon-152x152.png": {
 		"ft": 32768,
-		"iS": 272,
+		"iS": 0,
 		"oA": 0,
-		"oAP": "\/lib\/img\/arrow.png",
+		"oAP": "\/lib\/img\/apple-touch-icon-152x152.png",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/lib\/img\/bullet-arrow.png": {
+	"\/lib\/img\/apple-touch-icon-180x180.png": {
 		"ft": 32768,
-		"iS": 633,
+		"iS": 0,
 		"oA": 0,
-		"oAP": "\/lib\/img\/bullet-arrow.png",
+		"oAP": "\/lib\/img\/apple-touch-icon-180x180.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/lib\/img\/apple-touch-icon-57x57.png": {
+		"ft": 32768,
+		"iS": 3114,
+		"oA": 0,
+		"oAP": "\/lib\/img\/apple-touch-icon-57x57.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/lib\/img\/apple-touch-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 4372,
+		"oA": 0,
+		"oAP": "\/lib\/img\/apple-touch-icon-72x72.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/lib\/img\/apple-touch-icon-76x76.png": {
+		"ft": 32768,
+		"iS": 4743,
+		"oA": 0,
+		"oAP": "\/lib\/img\/apple-touch-icon-76x76.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/lib\/img\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/lib\/img\/apple-touch-icon.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1906,6 +1938,12 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/lib\/img\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/img\/favicon.ico",
+		"oF": 0
 		},
 	"\/lib\/img\/icon-accessible.png": {
 		"ft": 32768,
@@ -1984,14 +2022,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/lib\/img\/logo.png": {
-		"ft": 32768,
-		"iS": 1702899,
-		"oA": 0,
-		"oAP": "\/lib\/img\/logo.png",
-		"oF": 0,
-		"opt": 0
 		},
 	"\/lib\/img\/overlay.png": {
 		"ft": 32768,
@@ -2513,6 +2543,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/lib\/js\/theme-jquery-ck-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/lib\/js\/theme-jquery-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/lib\/js\/theme-jquery-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
