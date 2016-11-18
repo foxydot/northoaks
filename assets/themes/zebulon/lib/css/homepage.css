@@ -469,7 +469,18 @@
     padding-right: 2%;
   }
 }
+@media only screen and (min-width: 480px) {
+  .hp-logo {
+    width: 350px;
+    padding-left: 50px;
+    margin-bottom: 40px;
+  }
+}
 @media only screen and (max-width: 479px) {
+  .hp-logo {
+    padding-top: 30px;
+    width: 150px;
+  }
   .sectioned-page-wrapper .section .section-content img {
     max-width: 250px;
   }
