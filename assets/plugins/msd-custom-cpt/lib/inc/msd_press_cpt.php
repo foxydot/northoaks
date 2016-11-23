@@ -114,7 +114,7 @@ class MSDPressCPT {
 	        $press_info->the_meta($item->ID);
 	        $title = $press_info->get_the_value('pdf-press-label')!=''?$press_info->get_the_value('pdf-press-label'):$item->post_title;
             if($press_info->get_the_value('pdf-press')!=''){
-                $title = '<a href="'.$press_info->get_the_value('pdf-press').'">'.$title.'</a>';
+                $title = '<a href="'.$press_info->get_the_value('pdf-press').'" target="_blank">'.$title.'</a>';
             }
 	     	$publication_list .= '
 	     	<li>

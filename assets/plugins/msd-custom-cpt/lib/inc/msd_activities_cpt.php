@@ -115,7 +115,7 @@ class MSDActivityCPT {
 	        $activity_info->the_meta($item->ID);
 	        $title = $activity_info->get_the_value('pdf-activity-label')!=''?$activity_info->get_the_value('pdf-activity-label'):$item->post_title;
             if($activity_info->get_the_value('pdf-activity')!=''){
-                $title = '<a href="'.$activity_info->get_the_value('pdf-activity').'">'.$title.'</a>';
+                $title = '<a href="'.$activity_info->get_the_value('pdf-activity').'" target="_blank">'.$title.'</a>';
             }
 	     	$publication_list .= '
 	     	<li>

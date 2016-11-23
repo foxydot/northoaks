@@ -123,7 +123,7 @@ class MSDNewsCPT {
 	        $news_info->the_meta($item->ID);
 	        $title = $news_info->get_the_value('pdf-news-label')!=''?$news_info->get_the_value('pdf-news-label'):$item->post_title;
             if($news_info->get_the_value('pdf-news')!=''){
-                $title = '<a class="pdf" href="'.$news_info->get_the_value('pdf-news').'">'.$title.'</a>';
+                $title = '<a class="pdf" href="'.$news_info->get_the_value('pdf-news').'" target="_blank">'.$title.'</a>';
             }
 	     	$publication_list .= '
 	     	<li>
