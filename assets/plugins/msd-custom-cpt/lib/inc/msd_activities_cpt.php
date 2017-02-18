@@ -26,12 +26,15 @@ class MSDActivityCPT {
         add_action( 'init', array(&$this,'add_metaboxes') );
         add_action( 'init', array(&$this,'register_cpt_activity') );
         add_action('admin_enqueue_scripts', array(&$this,'add_admin_styles') );
+        add_action( 'admin_enqueue_scripts', array(&$this,'load_wp_media_files') );
         
         //Filters
+				if ( is_admin() ) {
+					add_filter('attachment_fields_to_edit', array( $this, 'force_attachment_file_url' ), 10, 2);
+				}
         
         //Shortcodes
         add_shortcode( 'activity-kit', array(&$this,'list_activity_stories') );
-        add_shortcode( 'list-activities', array(&$this,'list_activity_stories') );
     }
         
         
@@ -115,7 +118,7 @@ class MSDActivityCPT {
 	        $activity_info->the_meta($item->ID);
 	        $title = $activity_info->get_the_value('pdf-activity-label')!=''?$activity_info->get_the_value('pdf-activity-label'):$item->post_title;
             if($activity_info->get_the_value('pdf-activity')!=''){
-                $title = '<a href="'.$activity_info->get_the_value('pdf-activity').'" target="_blank">'.$title.'</a>';
+                $title = '<a href="'.$activity_info->get_the_value('pdf-activity').'">'.$title.'</a>';
             }
 	     	$publication_list .= '
 	     	<li>
@@ -137,4 +140,17 @@ class MSDActivityCPT {
             }
         }  
 
+	function load_wp_media_files() {
+		wp_enqueue_media();
+		wp_enqueue_script('media-upload');
+	}
+	
+	function force_attachment_file_url($form_fields, $post) {
+		$post_type = get_post($post->post_parent)->post_type;
+		if($post_type=='msd_activity') {
+			// force the Link URL to use the file URL
+			$form_fields['url']['html'] = image_link_input_fields($post, 'file');
+		}
+		return $form_fields;
+	}
 }
