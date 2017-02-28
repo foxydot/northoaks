@@ -53,7 +53,8 @@ jQuery(document).ready(function($) {
     
     $('a').not('[href*="mailto:"]').each(function () {
         var isInternalLink = new RegExp('/' + window.location.host + '/');
-        if ( ! isInternalLink.test(this.href) ) {
+        var isPDF = new RegExp('.pdf$');
+        if ( ! isInternalLink.test(this.href) | isPDF.test(this.href)) {
             $(this).attr('target', '_blank');
         }
     });
